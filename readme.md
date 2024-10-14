@@ -1,25 +1,76 @@
-# 專案名稱：道韻采集器 (Tao Melody Harvester)
+# Tao Melody Harvester
 
-## 專案說明：
+Tao Melody Harvester is a specialized digital tool designed for enthusiasts, researchers, and practitioners of Taoist music. It aims to help users collect, preserve, and appreciate precious Taoist music resources from the digital realm.
 
-道韻采集器是一款專為道教音樂愛好者、研究者和修行者設計的數字工具，旨在幫助用戶收集、保存和欣賞珍貴的道教音樂資源。
+## Features
 
-想像一下，在浩瀚的數字洪流中，道教音樂如同散落在各處的靈氣，等待著被真正懂得欣賞的修行者發現。道韻采集器就像一個智慧的法器，能夠感知這些珍貴的音樂靈氣，並將它們凝聚到您的個人修行寶庫中。
+- **Precise Detection**: Quickly locate authentic and reliable Taoist music resources.
+- **High-Quality Collection**: Ensure pure, lossless audio quality.
+- **Spiritual Transformation**: Easily convert music into portable practice resources.
+- **Personal Tao Music Library**: Build and manage your private collection of Taoist music.
+- **Exploration Function**: Discover rare Taoist musical treasures.
 
-無論是莊嚴肅穆的齋醮科儀音樂，還是輕快悠揚的道教曲調，道韻采集器都能以最純淨的形式將它們收藏起來。更妙的是，它還能將這些音樂靈氣提煉為便攜的音頻丹藥，讓您可以隨時隨地沐浴在道教音樂的靈性氛圍中。
+## Installation
 
-道韻采集器不僅僅是一個工具，它是連接您與道教音樂傳統的橋樑。通過簡單的操作，您就能在數字洪流中尋得珍貴的道樂，並在您的私人修行空間中營造一方寧靜致遠的音樂淨土。
+1. Ensure you have Python 3.7+ installed on your system.
+2. Clone this repository:
+   ```
+   git clone https://github.com/chinghetang/tao-melody-harvester.git
+   ```
+3. Navigate to the project directory:
+   ```
+   cd tao-melody-harvester
+   ```
+4. Create a virtual environment:
+   ```
+   python -m venv venv
+   ```
+5. Activate the virtual environment:
+   - On Windows:
+     ```
+     venv\Scripts\activate
+     ```
+   - On macOS and Linux:
+     ```
+     source venv/bin/activate
+     ```
+6. Install the required packages:
+   ```
+   pip install -r requirements.txt
+   ```
 
-準備好開始您的道樂采集之旅了嗎？讓道韻采集器成為您探索數字道樂世界的法器，開始您的靈性音樂修行吧！
+## Usage
 
----
+1. Ensure your virtual environment is activated.
+2. Run the main script:
+   ```
+   python downloader.py
+   ```
+3. Follow the on-screen prompts to input the URL of the Taoist music you wish to collect.
+4. The harvested music will be saved in the `downloads` folder.
 
-特點：
+## Running the Server
 
-1. 精準感知：快速定位真實可靠的道教音樂資源
-2. 高質量采集：確保音質純淨，不失真
-3. 靈性轉化：輕鬆將音樂轉換為隨身可攜的修行資源
-4. 個人道樂庫：建立和管理您的私人道教音樂收藏
-5. 探索功能：發現稀有的道教音樂瑰寶
+To access your Tao Melody Harvester through a web interface:
 
-道韻采集器 - 您的數字化道教音樂修行助手！
+1. Ensure your virtual environment is activated.
+2. Run the server:
+   ```
+   python mp3_server.py
+   ```
+3. Open a web browser and navigate to `http://localhost:80`
+
+## Contributing
+
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for more details.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Thanks to all the Taoist music creators and performers who inspire this project.
+- Special thanks to the open-source community for providing the tools that make this project possible.
+
+Remember, Tao Melody Harvester is designed for personal use and academic research. Always respect copyright laws and support Taoist music creators.
